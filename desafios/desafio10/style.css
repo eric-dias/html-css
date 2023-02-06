@@ -1,0 +1,140 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url('idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400&display=swap');
+
+body{
+    background-color: rgb(152, 224, 203);
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 0px;
+    text-align: center;    
+    
+}
+
+p{
+    text-indent: 30px;
+    text-align: left;
+    padding: 10px;
+}
+
+header{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    background-image: linear-gradient(rgb(134, 223, 134), green);
+    height: auto;
+    padding: 15px 70px 8px 15px;
+    margin: 0px;
+    color: white;
+}
+
+header > h1{
+    font-size: 32px;
+
+}
+
+header > p{
+    padding-top: 15px;
+    text-align: center;
+    
+}
+
+nav {
+    text-align: left;
+    padding-top: 20px;
+
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding-right: 15px;
+}
+
+main{
+    background-color: white;  /* branco */
+    border-radius: 10px;
+    margin: 0px 80px 0px 80px;
+    padding-bottom: 5px;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+}
+
+article#primeiro{
+  margin-top: 0px;
+  padding: 10px;
+  background-color: white;
+  
+}
+
+article#primeiro > h1,h2{
+    font-family:'idroid';
+    color: rgb(13, 102, 13);
+    text-align: left;
+}
+
+article#primeiro > h1{
+    font-size: 30px;
+}
+
+article#primeiro > h2{
+    font-size: 20px;
+    background-image: linear-gradient(to right, #8df13065,white);
+}
+
+article#video{
+    background-color: rgb(9, 90, 9);
+    padding: 15px;
+}
+
+article#segundo{
+    background-color: rgb(144, 238, 202);
+    margin: 15px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding-bottom: 5px;
+}
+
+article#segundo > h1{
+    padding: 10px;
+    background-color: rgb(24, 151, 24);
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    text-align: left;
+}
+
+article#segundo > ul{
+    text-align: left;
+}
+
+article#segundo > ul#lista1{
+    text-align: left;
+    display: inline-block;
+    
+}
+
+article#segundo > ul#lista2{
+    text-align: left;
+    display: inline-block  
+}
+
+aside > p{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+footer{
+    background-color: rgb(9, 90, 9);
+    color: white;
+    margin: 0px;
+}
+
+footer > p{
+    margin-bottom: 0px;
+    text-align: center;
+}
